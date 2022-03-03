@@ -3,8 +3,8 @@ from random import *
 from tkinter import messagebox as mb
 
 
-sizeGeneral = 0
 difficult = 0
+sizeGeneral = 0
 sizeW = 0
 sizeH = 0
 sumBombs = 0
