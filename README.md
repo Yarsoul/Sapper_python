@@ -1,2 +1,2 @@
-# Sapper_python
-Игра "Сапер вслепую" (python)
+# Sapper (python)
+Игра "Сапер вслепую"
