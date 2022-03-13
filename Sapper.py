@@ -16,15 +16,16 @@ arrFields = []
 arrBombButtons = []
 arrNumbersBombs = []
 
+
 def start_application():
     global window_start, difficult
     window_start = Tk()
     window_start.title("Сапер")
     screen_width = window_start.winfo_screenwidth()
     screen_height = window_start.winfo_screenheight()
-    center_w = screen_width // 2  # середина экрана
+    center_w = screen_width // 2
     center_h = screen_height // 2
-    shift_w = center_w - 200  # смещение от середины
+    shift_w = center_w - 200
     shift_h = center_h - 150
     window_start.geometry('400x300+{}+{}'.format(shift_w, shift_h))
 
